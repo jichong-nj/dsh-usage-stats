@@ -1,5 +1,7 @@
 # usage-stats — 用量统计
 
+[![npm](https://img.shields.io/npm/v/@jichong/dsh-usage-stats)](https://www.npmjs.com/package/@jichong/dsh-usage-stats) · [GitHub](https://github.com/jichong-nj/dsh-usage-stats)
+
 在左侧边栏（"新会话"与工作区之间，与 PPT 知识库同区）添加 **用量统计** 面板：
 
 - **按天 / 按月 / 自定义时间段** 查询 token 用量；
@@ -34,8 +36,16 @@
 
 ## 安装
 
+**从 npm 安装（推荐）**：
+
 ```
-plugin_manager install_bundle target=/home/jichong/Projects/dsh-plugins/usage-stats
+plugin_manager install_bundle target=@jichong/dsh-usage-stats
+```
+
+**从本地目录安装（开发调试）**：
+
+```
+plugin_manager install_bundle target=/path/to/dsh-usage-stats
 ```
 
 安装后刷新浏览器页面生效。

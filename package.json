@@ -1,6 +1,6 @@
 {
   "name": "@jichong/dsh-usage-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Cross-session per-model token usage stats for DeepSeek Harness: day/month/range queries and a GitHub-style contribution heatmap",
   "license": "MIT",
