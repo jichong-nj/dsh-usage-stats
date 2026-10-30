@@ -1,0 +1,4 @@
+# usage-stats — host patch layer.
+- insert:
+    - id: usage-stats
+      name: '@jichong/dsh-usage-stats'

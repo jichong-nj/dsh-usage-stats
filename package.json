@@ -1,0 +1,44 @@
+{
+  "name": "@jichong/dsh-usage-stats",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cross-session per-model token usage stats for DeepSeek Harness: day/month/range queries and a GitHub-style contribution heatmap",
+  "license": "MIT",
+  "author": "jichong-nj",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jichong-nj/dsh-usage-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jichong-nj/dsh-usage-stats/issues"
+  },
+  "homepage": "https://github.com/jichong-nj/dsh-usage-stats#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}

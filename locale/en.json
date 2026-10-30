@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Usage Stats",
+    "description": "Scans all local session logs and reports per-model token usage by day / month / custom range, with a GitHub-style contribution heatmap."
+  }
+}
